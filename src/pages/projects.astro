@@ -1,0 +1,52 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+---
+
+<MainLayout
+  title="John Doe's Projects"
+  seoTitle="Projects with React, Astro"
+  seoDesc="Award winning projects/app with Astro, React and NextJS"
+>
+  <div class="w-8/12 lg:w-6/12 mx-auto">
+    <h1 class="text-5xl my-2">Projects</h1>
+    <div class="grid md:grid-cols-2 gap-2">
+      <!-- Projects ⤵ with hyperlinks -->
+      <a href="/projects/bantr">
+        <img
+          class="rounded"
+          src="images/bantr.png"
+          alt="about"
+          width="300px"
+          height="300px"
+        />
+      </a>
+      <a href="/projects/introz">
+        <img
+          class="rounded"
+          src="images/introz.png"
+          alt="about"
+          width="300px"
+          height="300px"
+        />
+      </a>
+      <a href="/projects/twit">
+        <img
+          class="rounded"
+          src="images/twit.png"
+          alt="about"
+          width="300px"
+          height="300px"
+        />
+      </a>
+      <a href="/projects/fourth">
+        <img
+          class="rounded"
+          src="images/fourth.png"
+          alt="about"
+          width="300px"
+          height="300px"
+        />
+      </a>
+    </div>
+  </div>
+</MainLayout>
