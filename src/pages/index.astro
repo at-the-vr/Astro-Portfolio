@@ -4,8 +4,10 @@ import MainLayout from '../layouts/MainLayout.astro';
 
 <MainLayout
   title="John Portfolio Site"
-  seoTitle="John Does, Software Engineer Portfolio"
+  seoTitle="John Doe Software Engineer Portfolio"
   seoDesc="Software Engineer who expertise in Astro, React, NextJS and Node"
 >
-  slot: Index Page
+  <div class="w-8/12 md:w-6/12 mx-auto">
+    <h1 class="text-5xl md:text-5xl text-center">Hey 👋, I am John Doe</h1>
+  </div>
 </MainLayout>
